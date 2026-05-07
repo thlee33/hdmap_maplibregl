@@ -1,6 +1,6 @@
 # Autopilot Vision Simulator (MapLibre GL JS)
 
-정밀도로지도 데이터를 기반으로 자율주행 자동차의 1인칭 시점 내비게이션을 시뮬레이션하는 웹 애플리케이션입니다.
+정밀도로지도 데이터를 기반으로 자율주행 자동차의 1인칭 시점 내비게이션을 시뮬레이션합니다. 
 
 ## 주요 기능
 - **1인칭 주행 시뮬레이션:** 지정된 차선(Link)을 따라 차량 카메라 시점이 부드럽게 주행하며, 실제 속도감을 연출(비네팅 효과 및 HUD 속도계).
@@ -14,14 +14,3 @@
 - **Geospatial Processing:** Turf.js
 - **Data Format:** WGS84 GeoJSON
 
-## 시작하기
-```bash
-# 종속성 설치
-npm install
-
-# 로컬 개발 서버 실행
-npm run dev
-
-# GitHub Pages 배포용 빌드 (../maplibre 폴더로 생성됨)
-npm run build
-```
